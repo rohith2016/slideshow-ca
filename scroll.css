@@ -1,0 +1,150 @@
+.odometer,.odo,.odom {
+    font-size:50px;
+    
+}
+
+
+.links-container{
+    background-color:black;
+    opacity:0.8;
+    text-align:center;
+}
+.button {
+    position: relative;
+    background-color: rgb(80, 83, 80);
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.about{
+   background-color: rgb(30,30,30);
+    text-align:center;
+}
+
+.button:after {
+    
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.links-container{
+    background-color: black;
+    opacity:0.8;
+}
+
+a{
+    color:white;
+}
+
+a:hover{
+    color: white;
+}
+
+.link,.link:hover
+{
+    color: white;
+    text-decoration: none;
+}
+
+.heading{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(170, 134, 42);
+}
+
+.temp:hover{
+  
+    cursor: pointer;
+    z-index: 1;
+    box-shadow: 2px 2px rgb(192, 151, 20);
+}
+
+.temp
+{
+    height: 280px;
+}
+
+.desc{
+    font-size: 20px;
+    color: rgb(200,200,200);
+}
+
+.container,.container-fluid{
+    background-color: rgb(30,30,30);
+}
+
+.accordian {
+    width: 750px; 
+    height: 250px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+    -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.35);
+}
+
+
+.accordian ul {
+    width: 1200px;
+}
+
+.accordian li {
+    position: relative;
+    display: block;
+    width: 160px;
+    float: left;
+    
+    border-left: 1px solid #888;
+    
+    box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0 0 25px 10px rgba(0, 0, 0, 0.5);
+
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+
+.accordian ul li:hover {width: 640px;}
+
+
+.accordian li img {
+    display: block;
+}
+
+/*Image title styles*/
+.image_title {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    bottom: 0; 
+    width: 640px;   
+
+}
+.image_title a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 16px;
+}
